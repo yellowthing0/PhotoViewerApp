@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhotoViewerApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Height="450"
+        Width="800">
     <Grid>
-
+        <Image Name="PhotoImage"
+                Stretch="Uniform"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"/>
+        <Button Content="Load Photo"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Center"
+                Click="LoadPhoto_Click"
+                Width="100"
+                Height="30"
+                Margin="0,10,0,10"/>
     </Grid>
 </Window>
