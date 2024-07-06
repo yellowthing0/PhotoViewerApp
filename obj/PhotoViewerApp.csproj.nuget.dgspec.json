@@ -50,6 +50,14 @@
             "SkiaSharp.Views.WPF": {
               "target": "Package",
               "version": "[2.88.8, )"
+            },
+            "WpfAnimatedGif": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "XamlAnimatedGif": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             }
           },
           "imports": [

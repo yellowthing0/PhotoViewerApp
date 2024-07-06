@@ -2,9 +2,10 @@
 using System;
 using System.IO;
 using System.Windows;
-using System.Windows.Controls; // Add this line
+using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using SkiaSharp;
+using WpfAnimatedGif;
 
 namespace PhotoViewerApp
 {
@@ -27,10 +28,16 @@ namespace PhotoViewerApp
                 PhotoImage.Visibility = Visibility.Collapsed;
                 MediaElement.Visibility = Visibility.Collapsed;
 
-                if (fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png" || fileExtension == ".gif")
+                if (fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png")
                 {
                     BitmapImage bitmap = new BitmapImage(new Uri(openFileDialog.FileName));
                     PhotoImage.Source = bitmap;
+                    PhotoImage.Visibility = Visibility.Visible;
+                }
+                else if (fileExtension == ".gif")
+                {
+                    var image = new BitmapImage(new Uri(openFileDialog.FileName));
+                    ImageBehavior.SetAnimatedSource(PhotoImage, image);
                     PhotoImage.Visibility = Visibility.Visible;
                 }
                 else if (fileExtension == ".webp")

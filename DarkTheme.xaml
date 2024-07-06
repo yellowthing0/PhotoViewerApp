@@ -6,6 +6,8 @@
   <Color x:Key="ForegroundColor">#FFFFFF</Color>
   <Color x:Key="ButtonBackgroundColor">#2D2D3E</Color>
   <Color x:Key="ButtonForegroundColor">#FFFFFF</Color>
+  <Color x:Key="ButtonHighlightColor">#3A3A4F</Color>
+  <!-- Less bright highlight -->
 
   <!-- Apply colors to brushes -->
   <SolidColorBrush x:Key="WindowBackgroundBrush"
@@ -16,6 +18,8 @@
       Color="{StaticResource ButtonBackgroundColor}"/>
   <SolidColorBrush x:Key="ButtonForegroundBrush"
       Color="{StaticResource ButtonForegroundColor}"/>
+  <SolidColorBrush x:Key="ButtonHighlightBrush"
+      Color="{StaticResource ButtonHighlightColor}"/>
 
   <!-- Style for Window -->
   <Style TargetType="Window">
@@ -31,6 +35,27 @@
         Value="{StaticResource ButtonBackgroundBrush}"/>
     <Setter Property="Foreground"
         Value="{StaticResource ButtonForegroundBrush}"/>
+    <Setter Property="BorderBrush"
+        Value="{StaticResource ButtonHighlightBrush}"/>
+    <Setter Property="BorderThickness"
+        Value="1"/>
+    <Setter Property="Padding"
+        Value="5"/>
+    <Setter Property="Margin"
+        Value="5"/>
+    <Setter Property="Control.Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="Button">
+          <Border Background="{TemplateBinding Background}"
+              BorderBrush="{TemplateBinding BorderBrush}"
+              BorderThickness="{TemplateBinding BorderThickness}"
+              CornerRadius="5">
+            <ContentPresenter HorizontalAlignment="Center"
+                VerticalAlignment="Center"/>
+          </Border>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
   </Style>
 
   <!-- Style for MediaElement -->

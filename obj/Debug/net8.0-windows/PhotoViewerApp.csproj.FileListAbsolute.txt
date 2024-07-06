@@ -6,6 +6,8 @@ C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\SkiaSharp.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\SkiaSharp.Views.WPF.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\WpfAnimatedGif.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\XamlAnimatedGif.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll

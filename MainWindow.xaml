@@ -4,11 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhotoViewerApp"
+        xmlns:wpfAnimatedGif="http://wpfanimatedgif.codeplex.com"
         mc:Ignorable="d"
         Title="Photo Viewer"
                 Height="450"
-                Width="800">
-        <Grid Background="{StaticResource WindowBackgroundBrush}">
+                Width="800"
+        Background="{StaticResource WindowBackgroundBrush}">
+        <Grid>
                 <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="Auto"/>
@@ -16,8 +18,7 @@
                 <Image Name="PhotoImage"
                                 Stretch="Uniform"
                                 VerticalAlignment="Top"
-                                HorizontalAlignment="Center"
-                                Visibility="Collapsed"/>
+                                HorizontalAlignment="Center"/>
                 <MediaElement Name="MediaElement"
                                 VerticalAlignment="Top"
                                 HorizontalAlignment="Center"
