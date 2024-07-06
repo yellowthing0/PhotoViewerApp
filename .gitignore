@@ -1,0 +1,47 @@
+# Ignore build output and other files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+*.user
+*.suo
+*.sqlite
+*.sqlite3
+*.db
+*.mdf
+*.ldf
+*.vscode
+.vscode/*
+.vscode/**
+
+# Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Ignore NuGet packages
+*.nupkg
+.nuget/
+packages/
+
+# Ignore Visual Studio Code workspace settings file
+.vscode/
+
+# Ignore Rider specific files
+.idea/
+
+# Ignore user-specific files
+*.rsuser
+*.sln.docstates
+
+# Ignore Azure Pipelines agent configuration file
+.azure-pipelines.yml
+
+# Ignore other files
+**/Thumbs.db
+**/.DS_Store
