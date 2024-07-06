@@ -3,6 +3,8 @@ C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\PhotoViewerApp.runtimeconfig.json
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\PhotoViewerApp.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\PhotoViewerApp.pdb
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\DarkTheme.baml
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\App.baml
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoViewerApp_MarkupCompile.cache
