@@ -9,14 +9,23 @@
                 Height="450"
                 Width="800">
         <Grid Background="{StaticResource WindowBackgroundBrush}">
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
                 <Image Name="PhotoImage"
                                 Stretch="Uniform"
                                 VerticalAlignment="Top"
-                                HorizontalAlignment="Center"/>
-                <Button Content="Load Photo"
+                                HorizontalAlignment="Center"
+                                Visibility="Collapsed"/>
+                <MediaElement Name="MediaElement"
+                                VerticalAlignment="Top"
+                                HorizontalAlignment="Center"
+                                Visibility="Collapsed"/>
+                <Button Content="Load Media"
                                 VerticalAlignment="Bottom"
                                 HorizontalAlignment="Center"
-                                Click="LoadPhoto_Click"
+                                Click="LoadMedia_Click"
                                 Width="100"
                                 Height="30"
                                 Margin="0,10,0,10"/>

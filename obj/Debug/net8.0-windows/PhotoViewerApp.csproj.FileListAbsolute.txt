@@ -3,6 +3,14 @@ C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\PhotoViewerApp.runtimeconfig.json
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\PhotoViewerApp.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\PhotoViewerApp.pdb
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\SkiaSharp.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\SkiaSharp.Views.WPF.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoViewerApp.csproj.AssemblyReference.cache
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\DarkTheme.baml
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\App.baml
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\MainWindow.g.cs
@@ -16,6 +24,7 @@ C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoViewerApp.AssemblyInfo.cs
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoViewerApp.csproj.CoreCompileInputs.cache
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoViewerApp.sourcelink.json
+C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoVie.5AC0D0E3.Up2Date
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoViewerApp.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\refint\PhotoViewerApp.dll
 C:\Users\ale02\OneDrive\Documents\GitHub\PhotoViewerApp\obj\Debug\net8.0-windows\PhotoViewerApp.pdb

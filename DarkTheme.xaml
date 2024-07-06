@@ -3,13 +3,9 @@
 
   <!-- Define blue-tinted dark mode colors -->
   <Color x:Key="WindowBackgroundColor">#1E1E2F</Color>
-  <!-- Dark blue background -->
   <Color x:Key="ForegroundColor">#FFFFFF</Color>
-  <!-- White foreground for contrast -->
   <Color x:Key="ButtonBackgroundColor">#2D2D3E</Color>
-  <!-- Slightly lighter dark blue for buttons -->
   <Color x:Key="ButtonForegroundColor">#FFFFFF</Color>
-  <!-- White button text for contrast -->
 
   <!-- Apply colors to brushes -->
   <SolidColorBrush x:Key="WindowBackgroundBrush"
@@ -35,5 +31,11 @@
         Value="{StaticResource ButtonBackgroundBrush}"/>
     <Setter Property="Foreground"
         Value="{StaticResource ButtonForegroundBrush}"/>
+  </Style>
+
+  <!-- Style for MediaElement -->
+  <Style TargetType="MediaElement">
+    <Setter Property="Stretch"
+        Value="Uniform"/>
   </Style>
 </ResourceDictionary>
